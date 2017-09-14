@@ -53,7 +53,7 @@ function ajax( ajaxOptions ) {
 
 ajax( {
     typ: 'GET',
-    url: 'http://echo.jsontest.com/userId/108/userName/Akademia108/userURL/akademia108.pl',
+    url: 'https://akademia108.pl/kurs-front-end/ajax/1-pobierz-dane-programisty.php',
     //jeżeli połącznie zwraca błąd
     onError: function (msg) {
         console.log(msg);
