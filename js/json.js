@@ -1,7 +1,7 @@
 'use strict';
 
 $.ajax({
-    url: "https://echo.jsontest.com/userId/108/userName/Akademia108/userURL/akademia108.pl",
+    url: "https://akademia108.pl/kurs-front-end/ajax/1-pobierz-dane-programisty.php",
     dataType: 'json',
     success: function (resultJSON) {
         console.log(resultJSON);

@@ -3,7 +3,7 @@
 
 $(document).ready(function(){
     $("#click").click(function(){
-        $.getJSON("https://echo.jsontest.com/imie/Piotr/nazwisko/Lewinski/zawod/Programista/firma/Akademia108", function(result){
+        $.getJSON("https://akademia108.pl/kurs-front-end/ajax/1-pobierz-dane-programisty.php", function(result){
             $.each(result, function(i, field){
                 $("div").append(field + " ");
             });
